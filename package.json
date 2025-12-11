@@ -3,6 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
+  "files": [
+    "ts-configs/*.json"
+  ],
+  "exports": {
+    "./base.json": "./ts-configs/base.json",
+    "./nextjs.json": "./ts-configs/nextjs.json",
+    "./playwright.json": "./ts-configs/playwright.json"
+  },
   "publishConfig": {
     "access": "public"
   }
