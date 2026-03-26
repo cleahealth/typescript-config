@@ -1,17 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-<<<<<<<< HEAD:ts-configs/react.json
-  "display": "React (Vite/Bundler)",
-  "extends": "./base.json",
-  "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-========
   "display": "App",
   "extends": "./base.json",
   "compilerOptions": {
     "allowJs": true,
->>>>>>>> 9b28c2b (fix: rename nextjs.json to app.json, use react-jsx, ESNext + Bundler [ci skip]):ts-configs/app.json
     "jsx": "react-jsx",
     "noEmit": true
   }
