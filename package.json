@@ -8,7 +8,7 @@
   ],
   "exports": {
     "./base.json": "./ts-configs/base.json",
-    "./react.json": "./ts-configs/react.json",
+    "./app.json": "./ts-configs/app.json",
     "./playwright.json": "./ts-configs/playwright.json"
   },
   "publishConfig": {
